@@ -6,6 +6,7 @@ int func(int a) {
   int i = 0;
   int count = 0;
   while (i < a) {
+    i++;
     if (i % 2 == 1) {
       count++;
     }

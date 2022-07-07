@@ -9,6 +9,7 @@ int func(int a) {
   int even = 0;
   int odd = 0;
   while (i < a) {
+    i++;
     if (i % 2 == 1) {
       odd += i;
     } else {
