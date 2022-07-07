@@ -3,7 +3,9 @@
   Return odd and even numbers up to "a", whichever is smaller
   
 */
-void main() {}
+void main() {
+  print(func(5));
+}
 
 int func(int a) {
   int i = 0;
