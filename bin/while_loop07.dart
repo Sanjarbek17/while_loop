@@ -14,9 +14,9 @@ int func(int a) {
   while (i < a) {
     i++;
     if (i % 2 == 1) {
-      odd++;
+      odd += i;
     } else {
-      even++;
+      even + i;
     }
   }
   if (even < odd) {
